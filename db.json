@@ -1,0 +1,39 @@
+{
+    "reviews": [
+        {
+            "id": 1,
+            "name": "Anurag Dutta",
+            "job": "Software Engineer!",
+            "image": "/assets/anurag-profile.jpg",
+            "text": "As a software engineer, I appreciate the attention to detail and the overall quality of this product."
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "job": "Not worth the price",
+            "image": "https://randomuser.me/api/portraits/women/2.jpg",
+            "text": "I was really excited to try this product, but unfortunately it did not live up to the hype. I found it to be overpriced for what it offers."
+        },
+        {
+            "id": 3,
+            "name": "Mike Johnson",
+            "job": "Decent, but could be better",
+            "image": "https://randomuser.me/api/portraits/men/3.jpg",
+            "text": "The product is okay, but there are definitely areas for improvement. I hope the company takes customer feedback into account for future versions."
+        },
+        {
+            "id": 4,
+            "name": "Emily Davis",
+            "job": "Excellent customer service",
+            "image": "https://randomuser.me/api/portraits/women/4.jpg",
+            "text": "I had an issue with my order, but the customer service team was incredibly helpful and resolved it quickly. I appreciate their dedication to customer satisfaction."
+        },
+        {
+            "id": 5,
+            "name": "David Wilson",
+            "job": "Highly recommend!",
+            "image": "https://randomuser.me/api/portraits/men/5.jpg",
+            "text": "This product has made a huge difference in my daily routine. I can't imagine going back to how things were before. Highly recommend it to everyone!"
+        }
+    ]
+}

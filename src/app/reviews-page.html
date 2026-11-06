@@ -1,0 +1,30 @@
+<main class="reviews-page">
+  <header class="page-header">
+    <p class="eyebrow">CUSTOMER FEEDBACK</p>
+    <h1>What people are saying</h1>
+    <p class="subtitle">Honest thoughts from people who have tried the product.</p>
+  </header>
+
+  @if (isLoading()) {
+    <p class="status" role="status">Loading reviews...</p>
+  } @else if (errorMessage()) {
+    <p class="status error" role="alert">{{ errorMessage() }}</p>
+  } @else if (reviews().length === 0) {
+    <p class="status">There are no reviews yet.</p>
+  } @else {
+    <section class="review-grid" aria-label="Customer reviews">
+      @for (review of reviews(); track review.id) {
+        <article class="review-card">
+          <div class="reviewer">
+            <img [src]="review.image" [alt]="review.name" />
+            <div>
+              <h2>{{ review.name }}</h2>
+              <p class="job">{{ review.job }}</p>
+            </div>
+          </div>
+          <p class="review-text">{{ review.text }}</p>
+        </article>
+      }
+    </section>
+  }
+</main>
